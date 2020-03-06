@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/recordGroupNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:typeface="serif"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="1dp" />
+        <TextView
+            android:id="@+id/recordGroupDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="1dp" />
+
+        <TextView
+            android:id="@+id/recordGroupLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="6dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/recordGroupType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="15dp"
+        android:textStyle="normal" />
+</LinearLayout>

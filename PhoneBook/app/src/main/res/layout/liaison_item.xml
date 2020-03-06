@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/header" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/liaisonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="1dp" />
+
+        <TextView
+            android:id="@+id/liaisonNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="1dp" />
+
+        <TextView
+            android:id="@+id/liaisonLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="normal"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="1000dp"
+        android:layout_height="30dp"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/liaisonGroupID"
+            android:visibility="invisible"
+            android:layout_width="1000dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/file"
+            android:visibility="invisible"
+            android:layout_width="1000dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <RadioButton
+        android:id="@+id/multiChoiceBox"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:clickable="false"/>
+</LinearLayout>

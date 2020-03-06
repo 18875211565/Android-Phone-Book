@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PhoneBook</string>
+    <string name="tab_text_1">通话记录</string>
+    <string name="tab_text_2">联系人</string>
+    <string name="tab_text_3">群组</string>
+    <string name="button_text_1">编辑</string>
+    <string name="button_text_2">返回</string>
+    <string name="button_text_3">设置分组</string>
+    <string name="button_text_4">删除联系人</string>
+    <string name="button_text_5">添加联系人</string>
+    <string name="search_text">搜索</string>
+    <string name="liaison_tab1">联系人详情</string>
+    <string name="liaison_tab2">联系人通话记录</string>
+    <string name="string1">电话</string>
+    <string name="string2">短信</string>
+</resources>
